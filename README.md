@@ -15,4 +15,16 @@ You can **add, get, update, and delete** book records from the database.
 ---
 
 ## 🧩 Project Structure
-
+com.example.BookApplication
+│
+├── Controller
+│ └── BookController.java # REST API endpoints
+│
+├── Entity
+│ └── Book.java # JPA entity for Book
+│
+├── Repository
+│ └── BookRepository.java # Database operations
+│
+└── Service
+└── BookService.java # Business logic
